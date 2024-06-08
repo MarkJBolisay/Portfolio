@@ -1,0 +1,4210 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Periodic</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Julee&family=Sue+Ellen+Francisco&display=swap" rel="stylesheet">
+
+    <style>
+
+        :root{
+
+          --size-box: 70px;
+
+        }
+        
+
+
+
+        .box1{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: royalblue;
+
+           ;
+
+            
+
+          top: 100px;
+
+          left: 10px;
+
+          position: absolute;
+
+        }
+
+        .box2{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: violet;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 10px;
+
+          position: absolute;
+
+        }
+
+        .box3{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: violet;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 10px;
+
+          position: absolute;
+
+        }
+
+        .box4{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: violet;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 10px;
+
+          position: absolute;
+
+        }
+
+        .box5{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: violet;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 10px;
+
+          position: absolute;
+
+        }
+
+        .box6{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: violet;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 10px;
+
+          position: absolute;
+
+        }
+
+        .box7{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: violet;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 10px;
+
+          position: absolute;
+
+        }
+
+        .box1line{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: lightgreen;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 90px;
+
+          position: absolute;
+
+        }
+
+        .box2line{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: lightgreen;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 90px;
+
+          position: absolute;
+
+        }
+
+        .box3line{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: lightgreen;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 90px;
+
+          position: absolute;
+
+        }
+
+        .box4line{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: lightgreen;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 90px;
+
+          position: absolute;
+
+        }
+
+        .box5line{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: lightgreen;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 90px;
+
+          position: absolute;
+
+        }
+
+        .box6line{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: lightgreen;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 90px;
+
+          position: absolute;
+
+        }
+
+        .box1thirdline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 170px;
+
+          position: absolute;
+
+        }
+
+        .box2thirdline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 170px;
+
+          position: absolute;
+
+        }
+
+        .box3thirdline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: transparent;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 170px;
+
+          position: absolute;
+
+        }
+
+        .box4thirdline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: white;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 170px;
+
+          position: absolute;
+
+        }
+
+        .box1fourthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 250px;
+
+          position: absolute;
+
+        }
+
+        .box2fourthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 250px;
+
+          position: absolute;
+
+        }
+
+        .box3fourthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 250px;
+
+          position: absolute;
+
+        }
+
+        .box4fourthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 250px;
+
+          position: absolute;
+
+        }
+
+        .box1fifthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 330px;
+
+          position: absolute;
+
+        }
+
+        .box2fifthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 330px;
+
+          position: absolute;
+
+        }
+
+        .box3fifthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 330px;
+
+          position: absolute;
+
+        }
+
+        .box4fifthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 330px;
+
+          position: absolute;
+
+        }
+
+        .box1sixthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 410px;
+
+          position: absolute;
+
+        }
+
+        .box1sixthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 410px;
+
+          position: absolute;
+
+        }
+
+        .box2sixthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 410px;
+
+          position: absolute;
+
+        }
+
+        .box3sixthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 410px;
+
+          position: absolute;
+
+        }
+
+        .box4sixthline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 410px;
+
+          position: absolute;
+
+        }
+
+        .box1sevenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 490px;
+
+          position: absolute;
+
+        }
+
+        .box2sevenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 410px;
+
+          position: absolute;
+
+        }
+
+        .box3sevenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 490px;
+
+          position: absolute;
+
+        }
+
+        .box4sevenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 490px;
+
+          position: absolute;
+
+        }
+
+        .box5sevenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 490px;
+
+          position: absolute;
+
+        }
+
+        .box1eightline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 570px;
+
+          position: absolute;
+
+        }
+
+        .box2eightline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 570px;
+
+          position: absolute;
+
+        }
+
+        .box3eightline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 570px;
+
+          position: absolute;
+
+        }
+
+        .box4eightline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 570px;
+
+          position: absolute;
+
+        }
+
+        .box1nineline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 650px;
+
+          position: absolute;
+
+        }
+
+        .box2nineline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 650px;
+
+          position: absolute;
+
+        }
+
+        .box2nineline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 650px;
+
+          position: absolute;
+
+        }
+
+        .box3nineline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 650px;
+
+          position: absolute;
+
+        }
+
+        .box4nineline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 650px;
+
+          position: absolute;
+
+        }
+
+        .box1tenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 730px;
+
+          position: absolute;
+
+        }
+
+        .box2tenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 730px;
+
+          position: absolute;
+
+        }
+
+        .box2tenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 730px;
+
+          position: absolute;
+
+        }
+
+        .box3tenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 730px;
+
+          position: absolute;
+
+        }
+
+        .box4tenline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 730px;
+
+          position: absolute;
+
+        }
+
+        .box1eleline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 810px;
+
+          position: absolute;
+
+        }
+
+        .box1eleline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 810px;
+
+          position: absolute;
+
+        }
+
+        .box2eleline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 810px;
+
+          position: absolute;
+
+        }
+
+        .box3eleline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 810px;
+
+          position: absolute;
+
+        }
+
+        .box4eleline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 810px;
+
+          position: absolute;
+
+        }
+
+        .box1twline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 890px;
+
+          position: absolute;
+
+        }
+
+        .box2twline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 890px;
+
+          position: absolute;
+
+        }
+
+        .box3twline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 890px;
+
+          position: absolute;
+
+        }
+
+        .box4twline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: skyblue;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 890px;
+
+          position: absolute;
+
+        }
+
+        .box1tresline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box2tresline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box3tresline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box4tresline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box5tresline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box6tresline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box1forline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box2forline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box3forline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box4forline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box5forline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box6forline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 970px;
+
+          position: absolute;
+
+        }
+
+        .box1fiveline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: blue;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 1050px;
+
+          position: absolute;
+
+        }
+
+        .box2fiveline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 1050px;
+
+          position: absolute;
+
+        }
+
+        .box3fiveline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 1050px;
+
+          position: absolute;
+
+        }
+
+        .box4fiveline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 1050px;
+
+          position: absolute;
+
+        }
+
+        .box5fiveline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 1050px;
+
+          position: absolute;
+
+        }
+
+        .box6fiveline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 1050px;
+
+          position: absolute;
+
+        }
+
+        .box1sixline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: blue;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 1130px;
+
+          position: absolute;
+
+        }
+
+        .box2sixline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: blue;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 1130px;
+
+          position: absolute;
+
+        }
+
+        .box3sixline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 1130px;
+
+          position: absolute;
+
+        }
+
+        .box4sixline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 1130px;
+
+          position: absolute;
+
+        }
+
+        .box5sixline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 1130px;
+
+          position: absolute;
+
+        }
+
+        .box6sixline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 1130px;
+
+          position: absolute;
+
+        }
+
+        .box1seline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: blue;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 1210px;
+
+          position: absolute;
+
+        }
+
+        .box2seline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: blue;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 1210px;
+
+          position: absolute;
+
+        }
+
+        .box3seline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: blue;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 1210px;
+
+          position: absolute;
+
+        }
+
+        .box4seline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 1210px;
+
+          position: absolute;
+
+        }
+
+        .box5seline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: darkviolet;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 1210px;
+
+          position: absolute;
+
+        }
+
+        .box6seline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: yellow;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 1210px;
+
+          position: absolute;
+
+        }
+
+        .box1eline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: gray;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 1290px;
+
+          position: absolute;
+
+        }
+
+        .box2eline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: gray;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 1290px;
+
+          position: absolute;
+
+        }
+
+        .box3eline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: gray;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 1290px;
+
+          position: absolute;
+
+        }
+
+        .box4eline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: gray;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 1290px;
+
+          position: absolute;
+
+        }
+
+        .box5eline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: gray;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 1290px;
+
+          position: absolute;
+
+        }
+
+        .box6eline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: gray;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 1290px;
+
+          position: absolute;
+
+        }
+
+        .box1nline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: greenyellow;
+
+           ;
+
+            
+
+          top: 100px;
+
+          left: 1370px;
+
+          position: absolute;
+
+        }
+
+        .box2nline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: greenyellow;
+
+           ;
+
+            
+
+          top: 180px;
+
+          left: 1370px;
+
+          position: absolute;
+
+        }
+
+        .box3nline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: greenyellow;
+
+           ;
+
+            
+
+          top: 260px;
+
+          left: 1370px;
+
+          position: absolute;
+
+        }
+
+        .box4nline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: greenyellow;
+
+           ;
+
+            
+
+          top: 340px;
+
+          left: 1370px;
+
+          position: absolute;
+
+        }
+
+        .box5nline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: greenyellow;
+
+           ;
+
+            
+
+          top: 420px;
+
+          left: 1370px;
+
+          position: absolute;
+
+        }
+
+        .box6nline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: greenyellow;
+
+           ;
+
+            
+
+          top: 500px;
+
+          left: 1370px;
+
+          position: absolute;
+
+        }
+
+        .box7nline{
+
+          width: var(--size-box);
+
+          height: var(--size-box);
+
+          background-color: greenyellow;
+
+           ;
+
+            
+
+          top: 580px;
+
+          left: 1370px;
+
+          position: absolute;
+
+        }
+
+        :root{
+
+          --sizes-box: 70px;
+
+        }
+
+        .div1{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 220px;
+
+          position: absolute;
+
+        }
+
+        .div2{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 300px;
+
+          position: absolute;
+
+        }
+
+        .div3{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 380px;
+
+          position: absolute;
+
+        }
+
+        .div4{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 460px;
+
+          position: absolute;
+
+        }
+
+        .div5{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 540px;
+
+          position: absolute;
+
+        }
+
+        .div6{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 620px;
+
+          position: absolute;
+
+        }
+
+        .div7{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 700px;
+
+          position: absolute;
+
+        }
+
+        .div8{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 780px;
+
+          position: absolute;
+
+        }
+
+        .div9{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 860px;
+
+          position: absolute;
+
+        }
+
+        .div10{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 940px;
+
+          position: absolute;
+
+        }
+
+        .div11{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 1020px;
+
+          position: absolute;
+
+        }
+
+        .div12{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 1100px;
+
+          position: absolute;
+
+        }
+
+        .div13{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 1180px;
+
+          position: absolute;
+
+        }
+
+        .div14{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: 650px;
+
+          left: 1260px;
+
+          position: absolute;
+
+        }
+
+        .div15{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: orangered;
+
+           ;
+
+            
+
+          top: -2px;
+
+          left: 78px;
+
+          position: absolute;
+
+        }
+
+        .div1line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -1040px;
+
+          position: absolute;
+
+        }
+
+        .div2line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -960px;
+
+          position: absolute;
+
+        }
+
+        .div3line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -880px;
+
+          position: absolute;
+
+        }
+
+        .div4line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -800px;
+
+          position: absolute;
+
+        }
+
+        .div5line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -720px;
+
+          position: absolute;
+
+        }
+
+        .div6line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -640px;
+
+          position: absolute;
+
+        }
+
+        .div7line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -560px;
+
+          position: absolute;
+
+        }
+
+        .div8line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -480px;
+
+          position: absolute;
+
+        }
+
+        .div9line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left:  -400px;
+
+          position: absolute;
+
+        }
+
+        .div10line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -320px;
+
+          position: absolute;
+
+        }
+
+        .div11line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -240px;
+
+          position: absolute;
+
+        }
+
+        .div12line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -160px;
+
+          position: absolute;
+
+        }
+
+        .div13line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: -80px;
+
+          position: absolute;
+
+        }
+
+        .div14line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: 0px;
+
+          position: absolute;
+
+        }
+
+        .div15line{
+
+          width: var(--sizes-box);
+
+          height: var(--sizes-box);
+
+          background-color: burlywood;
+
+           ;
+
+            
+
+          top: 80px;
+
+          left: 78px;
+
+          position: absolute;
+
+        }
+
+        :root{
+
+          --name-size: 18px;
+
+        }
+
+        .name1{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: violet;
+
+           ;
+
+          left: 200px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name2{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: lightgreen;
+
+           ;
+
+          left: 280px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name3{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: orangered;
+
+           ;
+
+          left: 370px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name4{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: burlywood;
+
+           ;
+
+          left: 480px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name5{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: skyblue;
+
+           ;
+
+          left: 580px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name6{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: yellow;
+
+           ;
+
+          left: 680px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name7{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: darkviolet;
+
+           ;
+
+          left: 790px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name8{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: blue;
+
+           ;
+
+          left: 880px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name9{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: gray;
+
+           ;
+
+          left: 990px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .name10{
+
+          width: var(--name-size);
+
+          height: var(--name-size);
+
+          background-color: greenyellow;
+
+           ;
+
+          left: 1090px;
+
+          top: 850px;
+
+          position: absolute;
+
+        }
+
+        .container{
+
+          top: -30px;
+
+          left: 30px;
+
+          position: absolute;
+
+        }
+
+        p {
+
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+            text-align: center;
+
+            font-size: 14px;
+
+            margin-top: -10px;
+
+        }
+
+        .periodic{
+
+            left: 490px;
+
+            text-align: center;
+
+            font-family: 'Courier New', Courier, monospace;
+
+            position: absolute;
+
+        }
+
+        h4{
+
+          margin-top: -10px;
+
+        }
+
+        h1{
+
+          text-shadow: -10px -10px  100px gray;
+
+        }
+
+        h3{
+
+          line-height: 5px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div class="periodic"><h1>Periodic Table of the Elements</h1></div>
+
+    <div class="container">
+
+      <div class="box1">
+
+        <num>1</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">H</h4>
+
+        <p>Hydrogen</p>
+
+    </div><br>
+
+    <div class="box2">
+
+      <num>3</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Li</h4>
+
+        <p>Litiuim</p>
+
+    </div><br>
+
+    <!--Second Line-->
+
+    <div class="box1line">
+
+      <num>4</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Be</h4>
+
+        <p>Berylium</p>
+
+    </div><br>
+
+    <div class="box2line">
+
+      <num>12</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Mg</h4>
+
+        <p>Magnesium</p>
+
+    </div><br>
+
+    <div class="box3line">
+
+      <num>20</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Ca</h4>
+
+        <p>Calcium</p>
+
+    </div><br>
+
+    <div class="box4line">
+
+      <num>38</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Sr</h4>
+
+        <p>Estrontium</p>
+
+    </div><br>
+
+    <div class="box5line">
+
+      <num>56</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Ba</h4>
+
+        <p>Barium</p>
+
+    </div><br>
+
+    <div class="box6line">
+
+      <num>88</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Ra</h4>
+
+        <p>Radium</p>
+
+    </div><br>
+
+    <!--.-->
+
+    <!--Third Line-->
+
+    <div class="box1thirdline">
+
+      <num>21</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Sc</h4>
+
+        <p>Scandium</p>
+
+    </div><br>
+
+    <div class="box2thirdline">
+
+      <num>39</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Y</h4>
+
+        <p>Yttrium</p>
+
+    </div><br>
+
+    <div class="box3thirdline">
+
+      <num>57-71</num>
+
+        <h4 style="text-align: center; margin-top: -5px;">La-Lu</h4>
+
+        <p>Lanthanide</p>
+
+    </div><br>
+
+    <div class="box4thirdline">
+
+      <num>89-103</num>
+
+      <h4 style="text-align: center; margin-top: -5px;">Ac-Lr</h4>
+
+      <p>Actinide</p>
+
+  </div><br>
+
+    <!--.-->
+
+    <!--Fourth Line-->
+
+    <div class="box1fourthline">
+
+      <num>22</num>
+
+      <h4 style="text-align: center; margin-top: -10px;">Ti</h4>
+
+      <p>Titanium</p>
+
+    </div><br>
+
+    <div class="box2fourthline">
+
+      <num>40</num>
+
+    <h4 style="text-align: center; margin-top: -10px;">Zr</h4>
+
+    <p>Zirconium</p>
+
+    </div><br>
+
+    <div class="box3fourthline">
+
+      <num>72</num>
+
+      <h4 style="text-align: center; margin-top: -10px;">Hf</h4>
+
+      <p>Hafnium</p>
+
+    </div><br>
+
+    <div class="box4fourthline">
+
+      <num>104</num>
+
+      <h4 style="text-align: center; margin-top: -10px;">Rf</h4>
+
+      <p style="font-size: 10px;">Rutherfordium</p>
+
+    </div><br> 
+
+    <!--.-->
+
+    <!--5-->
+
+    <div class="box1fifthline">
+
+      <num>23</num>
+
+      <h4 style="text-align: center; margin-top: -10px;">V</h4>
+
+      <p>Vanadium</p>
+
+    </div><br>
+
+    <div class="box2fifthline">
+
+      <num>41</num>
+
+      <h4 style="text-align: center; margin-top: -10px;">Nb</h4>
+
+      <p>Niobium</p>
+
+    </div><br>
+
+    <div class="box3fifthline">
+
+      <num>73</num>
+
+      <h4 style="text-align: center; margin-top: -10px;">Ta</h4>
+
+      <p>Tantalum</p>
+
+    </div><br>
+
+    <div class="box4fifthline">
+
+      <num>105</num>
+
+      <h4 style="text-align: center; margin-top: -10px;">Db</h4>
+
+      <p>Dubnium</p>
+
+    </div><br>
+
+    <!---->
+
+    <!--6-->
+
+    <div class="box2sixthline">
+
+      <num>106</num>
+
+      <h4 style="text-align: center;">Sg</h4>
+
+      <p>Chromlum</p>
+
+    </div><br>
+
+    <div class="box3sixthline">
+
+      <num>74</num>
+
+      <h4 style="text-align: center;">W</h4>
+
+      <p>Tungsten</p>
+
+    </div><br>
+
+    <div class="box2sevenline">
+
+      <num>24</num>
+
+      <h4 style="text-align: center;">Cr</h4>
+
+      <p>Chromium</p>
+
+    </div><br>
+
+    <div class="box4sixthline">
+
+      <num>42</num>
+
+      <h4 style="text-align: center;">Mo</h4>
+
+      <p style="font-size: 11px;">Molybdenium</p>
+
+    </div><br>
+
+    <!---->
+
+    <!--7-->
+
+    <div class="box1sevenline">
+
+      <num>25</num>
+
+      <h4 style="text-align: center;">Mn</h4>
+
+      <p>Manganese</p>
+
+    </div><br>
+
+    <div class="box3sevenline">
+
+      <num>43</num>
+
+      <h4 style="text-align: center;">Tc</h4>
+
+      <p>Technetium</p>
+
+    </div><br>
+
+    <div class="box4sevenline">
+
+      <num>75</num>
+
+      <h4 style="text-align: center;">Re</h4>
+
+      <p>Rhenium</p>
+
+    </div><br>
+
+    <div class="box5sevenline">
+
+      <num>107</num>
+
+      <h4 style="text-align: center;">Bh</h4>
+
+      <p>Bohrium</p>
+
+    </div><br>
+
+    <!--.-->
+
+    <!--8-->
+
+    <div class="box1eightline">
+
+      <num>108</num>
+
+      <h4 style="text-align: center;">Hs</h4>
+
+      <p>Hassium</p>
+
+    </div><br>
+
+    <div class="box2eightline">
+
+      <num>76</num>
+
+      <h4 style="text-align: center;">Os</h4>
+
+      <p>Osmium</p>
+
+    </div><br>
+
+    <div class="box3eightline">
+
+      <num>44</num>
+
+      <h4 style="text-align: center;">Ru</h4>
+
+      <p>Ruthenium</p>
+
+    </div><br>
+
+    <div class="box4eightline">
+
+      <num>26</num>
+
+      <h4 style="text-align: center;">Fe</h4>
+
+      <p>Iron</p>
+
+    </div><br>
+
+    <!--.-->
+
+    <!--9-->
+
+    <div class="box1nineline">
+
+      <num>27</num>
+
+      <h4 style="text-align: center;">Co</h4>
+
+      <p>Cobalt</p>
+
+    </div><br>
+
+    <div class="box2nineline">
+
+      <num>45</num>
+
+      <h4 style="text-align: center;">Rh</h4>
+
+      <p>Rhodium</p>
+
+    </div><br>
+
+    <div class="box3nineline">
+
+      <num>77</num>
+
+      <h4 style="text-align: center;">Ir</h4>
+
+      <p>Iridium</p>
+
+    </div><br>
+
+    <div class="box4nineline">
+
+      <num>109</num>
+
+      <h4 style="text-align: center;">Mt</h4>
+
+      <p>Meitnerium</p>
+
+    </div><br>
+
+    <!--.-->
+
+    <!--10-->
+
+    <div class="box1tenline">
+
+      <num>28</num>
+
+      <h4 style="text-align: center;">Ni</h4>
+
+      <p>Nickel</p>
+
+    </div><br>
+
+    <div class="box2tenline">
+
+      <num>46</num>
+
+      <h4 style="text-align: center;">Pd</h4>
+
+      <p>Palladium</p>
+
+    </div><br>
+
+    <div class="box3tenline">
+
+      <num>78</num>
+
+      <h4 style="text-align: center;">Pt</h4>
+
+      <p>Platinum</p>
+
+    </div><br>
+
+    <div class="box4tenline">
+
+      <num>110</num>
+
+      <h4 style="text-align: center;">Ds</h4>
+
+      <p style="font-size: 12px;">Darmstadium</p>
+
+    </div><br>
+
+    <!--.-->
+
+    <!--11-->
+
+    <div class="box1eleline">
+
+      <num>29</num>
+
+      <h4 style="text-align: center;">Cu</h4>
+
+      <p>Copper</p>
+
+    </div><br>
+
+    <div class="box2eleline">
+
+      47
+
+      <h4 style="text-align: center;">Ag</h4>
+
+      <p>Silver</p>
+
+    </div><br>
+
+    <div class="box3eleline">
+
+      79
+
+      <h4 style="text-align: center;">Au</h4>
+
+      <p>Gold</p>
+
+    </div><br>
+
+    <div class="box4eleline">
+
+      111
+
+      <h4 style="text-align: center;">Rg</h4>
+
+      <p style="font-size: 12px;">Roentgenium</p>
+
+    </div><br>
+
+    <!--.-->
+
+    <!--12-->
+
+    <div class="box1twline">
+
+      30
+
+      <h4 style="text-align: center;">Zn</h4>
+
+      <p>Zinc</p>
+
+    </div><br>
+
+    <div class="box2twline">
+
+      48
+
+      <h4 style="text-align: center;">Cd</h4>
+
+      <p>Cadmium</p>
+
+    </div><br>
+
+    <div class="box3twline">
+
+      80
+
+      <h4 style="text-align: center;">Hg</h4>
+
+      <p>Mercury</p>
+
+    </div><br>
+
+    <div class="box4twline">
+
+      112
+
+      <h4 style="text-align: center;">Cn</h4>
+
+      <p style="font-size: 12px;">Copernecium</p>
+
+    </div><br>
+
+    <!--.-->
+
+  <!--13-->
+
+  <div class="box1tresline">
+
+    <num>5</num>
+
+    <h4 style="text-align: center; margin-top: -10px;">B</h4>
+
+    <p>Boron</p>
+
+</div><br>
+
+<div class="box2forline">
+
+  13
+
+    <h4 style="text-align: center;">Ai</h4>
+
+    <p>Aluminium</p>
+
+</div><br>
+
+<div class="box3forline">
+
+  31
+
+    <h4 style="text-align: center;">Ga</h4>
+
+    <p>Gallum</p>
+
+</div><br>
+
+<div class="box4forline">
+
+  49
+
+    <h4 style="text-align: center;">In</h4>
+
+    <p>Indium</p>
+
+</div><br>
+
+<div class="box5forline">
+
+  81
+
+    <h4 style="text-align: center;">TI</h4>
+
+    <p>Thallium</p>
+
+</div><br>
+
+<div class="box6forline">
+
+  113
+
+    <h4 style="text-align: center;">Uut</h4>
+
+    <p>Ununtrium</p>
+
+</div><br>
+
+<!--.-->
+
+<!--14-->
+
+<div class="box1fiveline">
+
+  <num>6</num>
+
+  <h4 style="text-align: center; margin-top: -10px;">C</h4>
+
+  <p>Carbon</p>
+
+</div><br>
+
+<div class="box2fiveline">
+
+14
+
+  <h4 style="text-align: center;">Si</h4>
+
+  <p>Silicon</p>
+
+</div><br>
+
+<div class="box3fiveline">
+
+  32
+
+  <h4 style="text-align: center;">Ge</h4>
+
+  <p style="font-size: 12px;">Germanium</p>
+
+</div><br>
+
+<div class="box4fiveline">
+
+  50
+
+  <h4 style="text-align: center;">Sn</h4>
+
+  <p>Tin</p>
+
+</div><br>
+
+<div class="box5fiveline">
+
+  82
+
+  <h4 style="text-align: center;">Pb</h4>
+
+  <p>Lead</p>
+
+</div><br>
+
+<div class="box6fiveline">
+
+  114
+
+  <h4 style="text-align: center;">FI</h4>
+
+  <p>Flerovium</p>
+
+</div><br>
+
+<!--.-->
+
+<!--15-->
+
+<div class="box1sixline">
+
+  <num>7</num>
+
+<h4 style="text-align: center; margin-top: -10px;">N</h4>
+
+<p>Nitrogen</p>
+
+</div><br>
+
+<div class="box2sixline">
+
+  15
+
+<h4 style="text-align: center;">P</h4>
+
+<p style="font-size: 12px;">Phosphorus</p>
+
+</div><br>
+
+<div class="box3sixline">
+
+  33
+
+<h4 style="text-align: center;">As</h4>
+
+<p style="font-size: 12px;">Arsenic</p>
+
+</div><br>
+
+<div class="box4sixline">
+
+  51
+
+<h4 style="text-align: center;">Sb</h4>
+
+<p>Antimoty</p>
+
+</div><br>
+
+<div class="box5sixline">
+
+  83
+
+<h4 style="text-align: center;">Bi</h4>
+
+<p>Bismuth</p>
+
+</div><br>
+
+<div class="box6sixline">
+
+  115
+
+<h4 style="text-align: center;">Uup</h4>
+
+<p style="font-size: 11px;">Ununipentium</p>
+
+</div><br>
+
+<!--.-->
+
+<!--16-->
+
+<div class="box1seline">
+
+  <num>8</num>
+
+<h4 style="text-align: center; margin-top: -10px;">O</h4>
+
+<p>Oxygen</p>
+
+</div><br>
+
+<div class="box2seline">
+
+  16
+
+<h4 style="text-align: center;">S</h4>
+
+<p>Sulfur</p>
+
+</div><br>
+
+<div class="box3seline">
+
+  34
+
+<h4 style="text-align: center;">Se</h4>
+
+<p style="font-size: 12px;">Selenium</p>
+
+</div><br>
+
+<div class="box4seline">
+
+  52
+
+<h4 style="text-align: center;">Te</h4>
+
+<p>Tellurium</p>
+
+</div><br>
+
+<div class="box5seline">
+
+  84
+
+<h4 style="text-align: center;">Po</h4>
+
+<p>Polonium</p>
+
+</div><br>
+
+<div class="box6seline">
+
+  116
+
+<h4 style="text-align: center;">Lv</h4>
+
+<p style="font-size: 12px;">Livermorium</p>
+
+</div><br>
+
+<!--.-->
+
+<!--17-->
+
+<div class="box1eline">
+
+  <num>9</num>
+
+<h4 style="text-align: center; margin-top: -10px;">F</h4>
+
+<p>Fluorine</p>
+
+</div><br>
+
+<div class="box2eline">
+
+  17
+
+<h4 style="text-align: center;">CI</h4>
+
+<p>Chlorine</p>
+
+</div><br>
+
+<div class="box3eline">
+
+  35
+
+<h4 style="text-align: center;">Br</h4>
+
+<p style="font-size: 12px;">Bromine</p>
+
+</div><br>
+
+<div class="box4eline">
+
+  53
+
+<h4 style="text-align: center;">I</h4>
+
+<p>Iodine</p>
+
+</div><br>
+
+<div class="box5eline">
+
+  85
+
+<h4 style="text-align: center;">At</h4>
+
+<p>Astatine</p>
+
+</div><br>
+
+<div class="box6eline">
+
+  117
+
+<h4 style="text-align: center;">Uus</h4>
+
+<p>Unusetium</p>
+
+</div><br>
+
+<!--.-->
+
+<!--18-->
+
+<div class="box1nline">
+
+  <num>2</num>
+
+<h4 style="text-align: center; margin-top: -10px;">He</h4>
+
+<p>Helium</p>
+
+</div><br>
+
+<div class="box2nline">
+
+  <num>10</num>
+
+<h4 style="text-align: center; margin-top: -10px;">Ne</h4>
+
+<p>Neon</p>
+
+</div><br>
+
+<div class="box3nline">
+
+  <num>18</num>
+
+<h4 style="text-align: center; margin-top: -10px;">Ar</h4>
+
+<p>Argon</p>
+
+</div><br>
+
+<div class="box4nline">
+
+  <num>36</num>
+
+<h4 style="text-align: center; margin-top: -10px;">Kr</h4>
+
+<p>Krypton</p>
+
+</div><br>
+
+<div class="box5nline">
+
+  <num>54</num>
+
+<h4 style="text-align: center; margin-top: -10px;">Xe</h4>
+
+<p>Xenon</p>
+
+</div><br>
+
+<div class="box6nline">
+
+  86
+
+<h4 style="text-align: center;">Rn</h4>
+
+<p>Radon</p>
+
+</div><br>
+
+<div class="box7nline">
+
+  118
+
+<h4 style="text-align: center;">Uuo</h4>
+
+<p style="font-size: 12px;">Ununoctium</p>
+
+</div><br>
+
+<!--.-->
+
+    <div class="box3">
+
+      <num>11</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Na</h4>
+
+        <p>Sodium</p>
+
+    </div><br>
+
+    <div class="box4">
+
+      <num>19</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">K</h4>
+
+        <p>Potassium</p>
+
+    </div><br>
+
+    <div class="box5">
+
+      <num>37</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Rb</h4>
+
+        <p>Rabidium</p>
+
+    </div><br>
+
+    <div class="box6">
+
+      <num>55</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Cs</h4>
+
+        <p>Caesum</p>
+
+    </div><br>
+
+    <div class="box7">
+
+      <num>87</num>
+
+        <h4 style="text-align: center; margin-top: -10px;">Fr</h4>
+
+        <p>Fransium</p>
+
+    </div><br>
+
+    </div>
+
+    <div class="container2">
+
+      <div class="div1">
+
+        57
+
+        <h4 style="text-align: center;">La</h4>
+
+        <p>Lathanium</p>
+
+       </div>
+
+       <div class="div2">
+
+        58
+
+        <h4 style="text-align: center;">Ce</h4>
+
+        <p>Cerium</p>
+
+       </div>
+
+       <div class="div3">
+
+        59
+
+        <h4 style="text-align: center;">Pr</h4>
+
+        <p style="font-size: 11px;">Praseodymium</p>
+
+       </div>
+
+       <div class="div4">
+
+        60
+
+        <h4 style="text-align: center;">Nd</h4>
+
+        <p style="font-size: 12px;">Neodymium</p>
+
+       </div>
+
+       <div class="div5">
+
+        61
+
+        <h4 style="text-align: center;">Pm</h4>
+
+        <p style="font-size: 12px;">Promethium</p>
+
+       </div>
+
+       <div class="div6">
+
+        62
+
+        <h4 style="text-align: center;">Sm</h4>
+
+        <p>Samarium</p>
+
+       </div>
+
+       <div class="div7">
+
+        63
+
+        <h4 style="text-align: center;">Eu</h4>
+
+        <p>Europium</p>
+
+       </div>
+
+       <div class="div8">
+
+        64
+
+        <h4 style="text-align: center;">Gd</h4>
+
+        <p style="font-size: 12px;">Gadolinium</p>
+
+       </div>
+
+       <div class="div9">
+
+        65
+
+        <h4 style="text-align: center;">Tb</h4>
+
+        <p>Terbium</p>
+
+       </div>
+
+       <div class="div10">
+
+        66
+
+        <h4 style="text-align: center;">Dy</h4>
+
+        <p style="font-size: 12px;">Dysporsium</p>
+
+       </div>
+
+       <div class="div11">
+
+        67
+
+        <h4 style="text-align: center;">Ho</h4>
+
+        <p>Holmium</p>
+
+       </div>
+
+       <div class="div12">
+
+        68
+
+        <h4 style="text-align: center;">Er</h4>
+
+        <p>Erbium</p>
+
+       </div>
+
+       <div class="div13">
+
+        79
+
+        <h4 style="text-align: center;">Tm</h4>
+
+        <p>Thululum</p>
+
+       </div>
+
+       <div class="div14">
+
+        70
+
+        <h4 style="text-align: center;">Yb</h4>
+
+        <p>Yitterbium</p>
+
+        <div class="div15">
+
+          71
+
+          <h4 style="text-align: center;">Lu</h4>
+
+          <p>Lutetium</p>
+
+         </div>
+
+         <div class="container3">
+
+          <div class="div1line">
+
+            89
+
+            <h4 style="text-align: center;">Ac</h4>
+
+            <p>Actinium</p>
+
+           </div>
+
+           <div class="div2line">
+
+            90
+
+             <h4 style="text-align: center;">Th</h4>
+
+             <p>Thorium</p>
+
+            </div>
+
+            <div class="div3line">
+
+              91
+
+             <h4 style="text-align: center;">Pa</h4>
+
+             <p style="font-size: 12px;">Protactinium</p>
+
+            </div>
+
+            <div class="div4line">
+
+              92
+
+             <h4 style="text-align: center;">U</h4>
+
+             <p style="font-size: 11px;">Uranium</p>
+
+            </div>
+
+            <div class="div5line">
+
+              93
+
+             <h4 style="text-align: center;">Np</h4>
+
+             <p style="font-size: 12px;">Neptium</p>
+
+            </div>
+
+            <div class="div6line">
+
+              94
+
+             <h4 style="text-align: center;">Pu</h4>
+
+             <p style="font-size: 12px;">Plutonium</p>
+
+            </div>
+
+            <div class="div7line">
+
+              95
+
+             <h4 style="text-align: center;">Am</h4>
+
+             <p>Americum</p>
+
+            </div>
+
+            <div class="div8line">
+
+              96
+
+             <h4 style="text-align: center;">Cm</h4>
+
+             <p>Curium</p>
+
+            </div>
+
+            <div class="div9line">
+
+              97
+
+             <h4 style="text-align: center;">Bk</h4>
+
+             <p style="font-size: 12px;">Berkelium</p>
+
+            </div>
+
+            <div class="div10line">
+
+              98
+
+             <h4 style="text-align: center;">Cf</h4>
+
+             <p style="font-size: 12px;">Californium</p>
+
+            </div>
+
+            <div class="div11line">
+
+              99
+
+             <h4 style="text-align: center;">Es</h4>
+
+             <p style="font-size: 12px;">Einstenium</p>
+
+            </div>
+
+            <div class="div12line">
+
+              100
+
+             <h4 style="text-align: center;">Fm</h4>
+
+             <p>Fermium</p>
+
+            </div>
+
+            <div class="div13line">
+
+              101
+
+             <h4 style="text-align: center;">Md</h4>
+
+             <p style="font-size: 11px;">Mendelevium</p>
+
+            </div>
+
+            <div class="div14line">
+
+              102
+
+             <h4 style="text-align: center;">No</h4>
+
+             <p>Nobelium</p>
+
+            </div>
+
+            <div class="div15line">
+
+              103
+
+             <h4 style="text-align: center;">Lr</h4>
+
+             <p style="font-size: 12px;">Lawrencium</p>
+
+         </div>
+
+       </div>
+
+    </div>
+
+    <div class="name"><h3 style="margin-top: 10px">Name: Mark Joseph Bolisay</h3><h3>Section: BSIT-1A</h3></div>
+
+    <div class="name1"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Alkali metal</h6></div>
+
+    <div class="name2"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Alkaline earth metal</h6></div>
+
+    <div class="name3"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Lhantanide</h6></div>
+
+    <div class="name4"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Actinide</h6></div>
+
+    <div class="name5"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Transition Metals</h6></div>
+
+    <div class="name6"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Post-transition metals</h6></div>
+
+    <div class="name7"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Metalloid</h6></div>
+
+    <div class="name8"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Polyatomic nonmetal</h6></div>
+
+    <div class="name9"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Diatomic nonmetal</h6></div>
+
+    <div class="name10"><h6 style="font-size: 19px; margin-left: -20px; margin-top: 30px;">Noble Gas</h6></div>
+
+  </div>
+
+</body>
+
+    </html>

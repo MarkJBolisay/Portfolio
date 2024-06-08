@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"
+  <center></><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </center></><title>SNAKE AND LADDER</title>
+<style>
+    a {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a[SNAKEANDLADDER]:hover::after {
+  content: attr(SNAKE AND LADDER);
+  position: absolute;
+  top: -100%;
+  left: 0;
+}
+  .board {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .row1 {
+    display: flex;
+    border: 2px;
+    
+  }
+  .square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    border: 2px;
+    
+   
+  }
+  .purple {
+    background-color: rgb(187, 8, 247);
+  }
+  
+  .blue {
+    background-color: rgb(24, 135, 239)
+   
+    
+  }
+  .orange {
+    background-color: rgb(179, 120, 13);
+  }
+  .green {
+    background-color: rgb(14, 210, 14);
+  }
+  .yellow {
+    background-color: rgb(193, 187, 19);
+  }
+  .pink {
+    background-color: rgb(244, 14, 182);
+  }
+    
+  
+</style>
+
+</head>
+<body>
+<h1 style ="text-align: center; font-size: 50px">Snake and Ladder</h1>
+ <div class="board">
+    <div class="row1">
+        
+    <div class="square blue">100</div>
+    <div class="square orange">99</div>
+    <div class="square blue">98</div>
+    <div class="square green">97</div>
+    <div class="square purple">96</div>
+    <div class="square blue">95</div>
+    <div class="square purple">94</div>
+    <div class="square blue">93</div>
+    <div class="square green">92</div>
+    <div class="square purple">91</div>
+  </div>
+  <div class="row1">
+
+    <div class="square yellow">81</div>
+    <div class="square pink">82</div>
+    <div class="square purple">83</div>
+    <div class="square yellow">84</div>
+    <div class="square pink">85</div>
+    <div class="square yellow">86</div>
+    <div class="square green">87</div>
+    <div class="square pink">88</div>
+    <div class="square yellow">89</div>
+    <div class="square orange">90</div>
+  </div>
+  <div class="row1">
+
+    <div class="square green">80</div>
+    <div class="square blue">79</div>
+    <div class="square orange">78</div>
+    <div class="square blue">77</div>
+    <div class="square green">76</div>
+    <div class="square blue">75</div>
+    <div class="square orange">74</div>
+    <div class="square blue">73</div>
+    <div class="square purple">72</div>
+    <div class="square blue">71</div>
+  </div>
+  <div class="row1">
+
+    <div class="square yellow">61</div>
+    <div class="square pink">62</div>
+    <div class="square yellow">63</div>
+    <div class="square purple">64</div>
+    <div class="square yellow">65</div>
+    <div class="square purple">66</div>
+    <div class="square yellow">67</div>
+    <div class="square green">68</div>
+    <div class="square yellow">69</div>
+    <div class="square green">70</div>
+  </div>
+  <div class="row1">
+
+    <div class="square blue">60</div>
+    <div class="square purple">59</div>
+    <div class="square orange">58</div>
+    <div class="square blue">57</div>
+    <div class="square orange">56</div>
+    <div class="square pink">55</div>
+    <div class="square orange">54</div>
+    <div class="square blue">53</div>
+    <div class="square pink">52</div>
+    <div class="square purple">51</div>
+  </div>
+  <div class="row1">
+    
+    <div class="square yellow">41</div>
+    <div class="square pink">42</div>
+    <div class="square yellow">43</div>
+    <div class="square green">44</div>
+    <div class="square yellow">45</div>
+    <div class="square green">46</div>
+    <div class="square yellow">47</div>
+    <div class="square green">48</div>
+  <div class="square yellow">49</div>
+    <div class="square orange">50</div>
+  </div>
+  <div class="row1">
+
+    <div class="square green">40</div>
+    <div class="square blue">39</div>
+    <div class="square orange">38</div>
+    <div class="square purple">37</div>
+    <div class="square blue">36</div>
+    <div class="square pink">35</div>
+    <div class="square purple">34</div>
+    <div class="square blue">33</div>
+    <div class="square purple">32</div>
+    <div class="square blue">31</div>
+  </div>
+  <div class="row1">
+    <div class="square purple">21</div>
+    <div class="square yellow">22</div>
+    <div class="square green">23</div>
+    <div class="square yellow">24</div>
+    <div class="square green">25</div>
+    <div class="square yellow">26</div>
+    <div class="square orange">27</div>
+    <div class="square green">28</div>
+    <div class="square yellow">29</div>
+    <div class="square green">30</div>
+  </div>
+  <div class="row1">
+    <div class="square blue">20</div>
+    <div class="square orange">19</div>
+    <div class="square pink">18</div>
+    <div class="square purple">17</div>
+    <div class="square pink">16</div>
+    <div class="square purple">15</div>
+    <div class="square blue">14</div>
+    <div class="square purple">13</div>
+    <div class="square pink">12</div>
+    <div class="square purple">11</div>
+  </div>
+  <div class="row1">
+    <div class="square blue">10</div>
+    <div class="square orange">9</div>
+    <div class="square pink">8</div>
+    <div class="square purple">7</div>
+    <div class="square pink">6</div>
+    <div class="square purple">5</div>
+    <div class="square blue">4</div>
+    <div class="square purple">3</div>
+    <div class="square pink">2</div>
+    <div class="square purple">1</div>
+  </div>
