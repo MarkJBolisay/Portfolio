@@ -13,6 +13,7 @@ body{
 html{
     font-size: 12pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 nav{
     height: 60px;
