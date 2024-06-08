@@ -110,5 +110,13 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('sidebar-active').checked = false;
+            });
+        });
+    </script>
 </body>
 </html>
